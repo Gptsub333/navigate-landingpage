@@ -13,7 +13,7 @@ import PricingPage from "./components/PricingPage"
 import AboutPage from "./components/AboutPage"
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState("home")
+  const [currentPage, setCurrentPage] = useState("product")
 
   const handleNavigation = (page) => {
     setCurrentPage(page)
